@@ -1,0 +1,14 @@
+restricted | CONTROL
+controlled | CONTROL
+unauthorized | RISK
+system | ASSET
+breaches | RISK
+violations | RISK
+Implement | CONTROL
+reviews | CONTROL
+accounts | ASSET
+enforce | CONTROL
+
+
+NER_pipline.py has categorized the specific words in GRC text as controls, risk & assest.
+
