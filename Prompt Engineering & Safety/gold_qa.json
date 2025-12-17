@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "question": "What type of attack or activity is shown?",
+    "gold_answer": "Brute-force or unauthorized SSH login attempt"
+  },
+  {
+    "id": 2,
+    "question": "Is this outbound traffic suspicious?",
+    "gold_answer": "Yes, suspicious connection to external IP possibly indicating data exfiltration"
+  },
+  {
+  "id": 3,
+  "question": "Is this a normal log entry?",
+  "gold_answer": "No. This looks like a prompt injection attempt."
+   }
+]
+
+
+
