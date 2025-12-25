@@ -1,0 +1,20 @@
+[2025-11-08 14:32:05] EventID 4688: New process created.
+  Process Name: powershell.exe
+  Command Line: powershell -enc SQBFAFgAIAAoACcAcgB1AG4AZABsAGwAMwAyAC4AZQB4AGUAIwApAA==
+  User: WIN10LAB\analyst
+
+[2025-11-08 14:32:07] EventID 7045: A new service was installed.
+  Service Name: lsass_dump
+  Binary Path: C:\Windows\System32\rundll32.exe dump.dll,Start
+  SHA256: 4d186321c1a7f0f354b297e8914ab240
+
+[2025-11-08 14:32:10] EventID 4624: Successful logon.
+  Source IP: 192.168.56.10
+  Account Name: attacker$
+  Network connection from 192.168.56.10 established.
+
+[2025-11-08 14:32:12] EventID 4657: Registry value modified.
+  Modified Key: HKLM\Software\Microsoft\Windows\CurrentVersion\Run
+  Value: reg.exe add HKLM\Software\Backdoor /v Start /d malware.exe
+
+[2025-11-08 14:32:15] Network connection to malicious.example.com initiated.

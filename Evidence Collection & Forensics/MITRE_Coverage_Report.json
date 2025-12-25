@@ -1,0 +1,31 @@
+{
+  "timestamp": "2025-11-08T21:42:18.481855",
+  "iocs": {
+    "ips": [
+      "192.168.56.10"
+    ],
+    "hashes": [
+      "4d186321c1a7f0f354b297e8914ab240"
+    ],
+    "domains": [
+      "powershell.exe",
+      "malicious.example.com",
+      "reg.exe",
+      "dump.dll",
+      "rundll32.exe",
+      "malware.exe"
+    ]
+  },
+  "mitre_techniques_detected": [
+    "T1218.011 (Signed Binary Proxy Execution: Rundll32)",
+    "T1049 (System Network Connections Discovery)",
+    "T1112 (Modify Registry)",
+    "T1059.001 (Command and Scripting Interpreter: PowerShell)",
+    "T1003.001 (OS Credential Dumping: LSASS Memory)"
+  ],
+  "coverage_summary": {
+    "total_detected": 5,
+    "total_known": 5,
+    "coverage_percent": 100.0
+  }
+}
