@@ -1,0 +1,3 @@
+{"timestamp": "2025-11-09T17:59:30.609011", "action": "ping 10.0.0.5", "decision": "deny", "reason": "Target out of allowed range.", "mode": "dry-run"}
+{"timestamp": "2025-11-09T17:59:30.610015", "action": "rm -rf /tmp", "decision": "deny", "reason": "Unsafe keyword detected: rm ", "mode": "dry-run"}
+{"timestamp": "2025-11-09T17:59:30.612634", "action": "curl spam.com", "decision": "deny", "reason": "Unsafe keyword detected: curl ", "mode": "dry-run"}
